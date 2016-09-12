@@ -16,6 +16,9 @@ Todos os trechos de código podem ser testados online em [https://repl.it](https
 * PHP
 * T-SQL (Transact SQL / SQL Server)
 
+A ideia básica de cada código é obter o dia do ano (1 a 365) e comparar com o dia do programador (calculando a potencia 2 elevada a 8). Comparar os dias obtidos e exibir mensagens caso sejam iguais, se o dia atual for menor ou maior que 256.
+
+
 ## Me mostre o código...
 
 ### GO

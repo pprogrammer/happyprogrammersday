@@ -16,6 +16,8 @@ All pieces of code can be tested online at [https://repl.it](https://repl.it) (e
 * PHP
 * T-SQL (Transact SQL / SQL Server)
 
+The basic idea of each code is to get the day of the year (1-365) and compare with the Programmers' Day (calculating the power 2 increased to 8). Compare day obtained and display messages if they are equal, if the current day is less than or greater than 256.
+
 ## Show me the code...
 
 ### GO

@@ -1,7 +1,7 @@
 # Happy Programmers' Day
 In celebration of Programmers' Day, a small greeting in several languages :)
 
-All pieces of code can be tested online at [https://repl.it](https://repl.it)
+All pieces of code can be tested online at [https://repl.it](https://repl.it) (except T-SQL)
 
 ## Languages used:
 * GO

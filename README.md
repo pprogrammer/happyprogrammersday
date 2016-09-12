@@ -1,6 +1,10 @@
 # Happy Programmers' Day
 In celebration of Programmers' Day, a small greeting in several languages :)
 
+The Programmer's Day is internationally recognized and celebrated on the 256 each year.
+The number 256 for the number of distinct values that can be represented with a byte of eight bits, a well known value for developers and also be the highest power of two (high to eight), which is less than 365 ( number of days in a year).
+[Wikipedia](https://en.wikipedia.org/wiki/Day_of_the_Programmer)
+
 All pieces of code can be tested online at [https://repl.it](https://repl.it) (except T-SQL)
 
 ## Languages used:

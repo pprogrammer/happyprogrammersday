@@ -1,6 +1,10 @@
 # Feliz Dia do Programador
 Em comemoração ao Dia do Programador, uma pequena homenagem em algumas linguagens :)
 
+O Dia do Programador é reconhecido internacionalmente e comemorado no dia 256 de cada ano.
+O número 256 porque é o número de valores distintos que podem ser representados com um byte de oito bits, um valor bem conhecido para os programadores e por ser também a mais elevada potência de dois (elevado a oito), que é inferior a 365 (número de dias num ano).
+fonte: [Wikipedia](https://en.wikipedia.org/wiki/Day_of_the_Programmer)
+
 Todos os trechos de código podem ser testados online em [https://repl.it](https://repl.it) (exceto T-SQL)
 
 ## Linguagens usadas:

@@ -11,7 +11,7 @@ Todos os trechos de código podem ser testados online em [https://repl.it](https
 * Javascript
 * PHP
 * T-SQL (Transact SQL / SQL Server)
- 
+
 ## Me mostre o código...
 
 ### GO
@@ -19,7 +19,7 @@ Todos os trechos de código podem ser testados online em [https://repl.it](https
 package main
 
 import (
-	"fmt" 
+	"fmt"
 	"time"
 	"math"
 )
@@ -32,7 +32,7 @@ func main() {
   } else if day < programmer_day {
   	fmt.Println("Falta(m)", programmer_day - day, " dia(s) para o Dia do Programador.")
   } else {
-  	fmt.Println("O Dia do Programador foi a", day - programmer_day, " dia(s)")	
+  	fmt.Println("O Dia do Programador foi a", day - programmer_day, " dia(s)")
   }
 }
 ```
@@ -97,7 +97,7 @@ if(day == programmer_day) {
 
 ### PHP
 ```php
-$day = date("z") + 1; 
+$day = date("z") + 1;
 $programmer_day = 2**8;
 if($day == $programmer_day) {
 	echo "Feliz Dia do Programador!";
@@ -124,3 +124,25 @@ begin
 		print 'O Dia do Programador foi a ' + cast(@day - @programmer_day as varchar(3)) + ' dia(s).'
 end
 ```
+
+## Imagens
+### GO
+![GO](images/2016-09-12_01-GO.png)
+
+### Ruby
+![Ruby](images/2016-09-12_02-Ruby.png)
+
+### Python
+![Python](images/2016-09-12_03-Python.png)
+
+### Lua
+![Lua](images/2016-09-12_04-Lua.png)
+
+### Javascript
+![Javascript](images/2016-09-12_05-Javascript.png)
+
+### PHP
+![PHP](images/2016-09-12_06-PHP.png)
+
+### T-SQL
+![PHP](images/2016-09-12_07-T-SQL.png)

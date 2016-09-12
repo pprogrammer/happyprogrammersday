@@ -5,7 +5,7 @@ All pieces of code can be tested online at [https://repl.it](https://repl.it)
 
 ## Languages used:
 * GO
-* Roby
+* Ruby
 * Python
 * Lua
 * Javascript

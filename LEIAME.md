@@ -1,7 +1,7 @@
 # Feliz Dia do Programador
 Em comemoração ao Dia do Programador, uma pequena homenagem em algumas linguagens :)
 
-Todos os trechos de código podem ser testados online em [https://repl.it](https://repl.it)
+Todos os trechos de código podem ser testados online em [https://repl.it](https://repl.it) (exceto T-SQL)
 
 ## Linguagens usadas:
 * GO

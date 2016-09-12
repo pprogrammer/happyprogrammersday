@@ -8,6 +8,7 @@ All pieces of code can be tested online at [https://repl.it](https://repl.it)
 * Roby
 * Python
 * Lua
+* Javascript
 * PHP
 * T-SQL (Transact SQL / SQL Server)
  
@@ -27,11 +28,11 @@ func main() {
   day := time.Now().YearDay()
   programmer_day := int ( math.Pow(2,8) )
   if day == programmer_day {
-  	fmt.Println("Feliz Dia do Programador!")
+  	fmt.Println("Happy Programmers' Day!")
   } else if day < programmer_day {
-  	fmt.Println("Falta(m)", programmer_day - day, " dia(s) para o Dia do Programador.")
+  	fmt.Println(programmer_day - day, " day(s) left to Programmers' Day.")
   } else {
-  	fmt.Println("O Dia do Programador foi a", day - programmer_day, " dia(s)")	
+  	fmt.Println("The Programmers' Day was ", day - programmer_day, " day(s).")	
   }
 }
 ```
@@ -41,11 +42,11 @@ func main() {
 time = Time.new
 programmer_day = 2**8
 if time.yday  == programmer_day
-	puts "Feliz Dia do Programador!"
+	puts "Happy Programmers' Day!"
 elsif time.yday < programmer_day
-	puts "Falta(m) " + (programmer_day - time.yday).to_s + " dia(s) para o Dia do Programador."
+	puts (programmer_day - time.yday).to_s + " day(s) left to Programmers' Day."
 else
-	puts "O Dia do Programador foi a " + (time.yday - programmer_day).to_s + " dia(s)."
+	puts "The Programmers' Day was " + (time.yday - programmer_day).to_s + " day(s)."
 end
 ```
 
@@ -57,11 +58,11 @@ day = datetime.now().timetuple().tm_yday
 programmers_day = 2**8
 
 if day == programmers_day:
-	print("Feliz Dia do Programador!")
+	print("Happy Programmers' Day!")
 elif day < programmers_day:
-	print("Falta(m)", programmers_day - day, " dias para o Dia do Programador.")
+	print(programmers_day - day, " day(s) left to Programmers' Day.")
 else:
-	print("O Dia do programador foi a", day - programmers_day, " dia(s).")
+	print("The Programmers' Day was ", day - programmers_day, " day(s).")
 ```
 
 ### Lua
@@ -69,12 +70,29 @@ else:
 day = os.date("*t").yday
 programmer_day = 2^8
 if day == programmer_day then
-	print("Feliz Dia do Programador!")
+	print("Happy Programmers' Day!")
 elseif day < programmer_day then
-	print("Falta(m)", programmer_day - day, " dia(s) para o Dia do Programador.")
+	print(programmer_day - day, " day(s) left to Programmers' Day.")
 else
-	print("O Dia do Programador foi a", day - programmer_day, " dia(s).")
+	print("The Programmers' Day was ", day - programmer_day, " day(s).")
 end
+```
+
+### Javascript
+```javascript
+var now = new Date();
+var start = new Date(now.getFullYear(), 0, 0);
+var diff = now - start;
+var oneDay = 1000 * 60 * 60 * 24;
+var day = Math.floor(diff / oneDay);
+var programmer_day = Math.pow(2,8);
+if(day == programmer_day) {
+	alert("Happy Programmers' Day!");
+} else if (day < programmer_day) {
+	alert((programmer_day - day).toString() + " day(s) left to Programmers' Day." );
+} else {
+	alert("The Programmers' Day was " + (day - programmer_day).toString() + " day(s).")
+}
 ```
 
 ### PHP
@@ -82,11 +100,11 @@ end
 $day = date("z") + 1; 
 $programmer_day = 2**8;
 if($day == $programmer_day) {
-	echo "Feliz Dia do Programador!";
+	echo "Happy Programmers' Day!";
 } elseif ($day < $programmer_day) {
-	echo "Falta(m)" . ($programmer_day - $day) . " dia(s) para o Dia do Programador.";
+	echo ($programmer_day - $day) . " day(s) left to Programmers' Day.";
 } else {
-	echo "O Dia do Programador foi a " . ($day - $programmer_day) . " dia(s).";
+	echo "The Programmers' Day was " . ($day - $programmer_day) . " day(s).";
 }
 ```
 
@@ -97,12 +115,12 @@ set @day = (SELECT datediff(day,CAST(datepart(year,getdate()) AS CHAR(4)) + '-01
 set @programmer_day = power(2,8)
 
 if @day = @programmer_day
-	print 'Feliz Dia do Programador!'
+	print 'Happy Programmers'' Day!'
 else
 begin
 	if @day < @programmer_day
-		print 'Falta(m) ' + cast(@programmer_day - @day as varchar(3)) + ' dia(s) para o Dia do Programador.'
+		print cast(@programmer_day - @day as varchar(3)) + ' day(s) left to Programmers'' Day.'
 	else
-		print 'O Dia do Programador foi a ' + cast(@day - @programmer_day as varchar(3)) + ' dia(s).'
+		print 'The Programmers'' Day was ' + cast(@day - @programmer_day as varchar(3)) + ' day(s).'
 end
 ```

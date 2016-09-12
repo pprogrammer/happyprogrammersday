@@ -8,6 +8,7 @@ Todos os trechos de código podem ser testados online em [https://repl.it](https
 * Roby
 * Python
 * Lua
+* Javascript
 * PHP
 * T-SQL (Transact SQL / SQL Server)
  
@@ -75,6 +76,23 @@ elseif day < programmer_day then
 else
 	print("O Dia do Programador foi a", day - programmer_day, " dia(s).")
 end
+```
+
+### Javascript
+```javascript
+var now = new Date();
+var start = new Date(now.getFullYear(), 0, 0);
+var diff = now - start;
+var oneDay = 1000 * 60 * 60 * 24;
+var day = Math.floor(diff / oneDay);
+var programmer_day = Math.pow(2,8);
+if(day == programmer_day) {
+	alert("Feliz Dia do Programador!");
+} else if (day < programmer_day) {
+	alert("Falta(m) " + (programmer_day - day).toString() + " dia(s) para o Dia do Programador." );
+} else {
+	alert("O Dia do Programador foi a " + (day - programmer_day).toString() + " dia(s).")
+}
 ```
 
 ### PHP
